@@ -2,7 +2,7 @@
 
 fn main() {
     
-    let input = std::fs::read_to_string("./src/input.txt").unwrap();
+    let input = std::fs::read_to_string("./day1/input.txt").unwrap();
     
     let lines = input.split("\n\n");
 
